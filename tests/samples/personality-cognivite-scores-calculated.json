@@ -1,0 +1,40 @@
+{
+    "event_type": "cognitive_scores_calculated",
+    "company_id": 1,
+    "user_account_id": 33,
+    "event_id": "8ec94c9b-ce49-44a1-be16-1bab0c093ee6",
+    "data": {
+        "person_id": "ed668765-afd2-43c4-a20f-23078ff453a0",
+        "person_type": "candidate",
+        "job_score_recipe_id": "0312047c-9542-4f3b-8d34-5d163fc208c6",
+        "process_id": 1,
+        "process_type": "program",
+        "payload": [
+            {
+                "domain_alias": "verbal",
+                "domain_score": 0.6190476190476191,
+                "domain_percentile": 69,
+                "ingredient_weightage": 0.19449394155381328
+            },
+            {
+                "domain_alias": "logical",
+                "domain_score": 0.125,
+                "domain_percentile": 0,
+                "ingredient_weightage": 0.1854953670705631
+            },
+            {
+                "domain_alias": "numeric",
+                "domain_score": 0.3684210526315789,
+                "domain_percentile": 34,
+                "ingredient_weightage": 0.1571632216678546
+            },
+            {
+                "domain_alias": "reasoning_average",
+                "domain_score": 0.37082289055973267,
+                "domain_percentile": 10,
+                "ingredient_weightage": null
+            }
+        ]
+    },
+    "timestamp": "2021-03-16 13:57:52.430447"
+}

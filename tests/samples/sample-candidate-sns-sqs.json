@@ -1,0 +1,23 @@
+{
+    "Records": [
+        {
+            "messageId": "10f56364-29fc-471a-88f9-ee811362e7a7",
+            "receiptHandle": "AQEBxtntR1Qnvmuzov64/ybMCF2tUSLhp9PsV6kvs2yNVwQ5wXq/ApDYduSiRRXCBY4kERDUcWzR2QfPcRcVKBDYWUJUBtdVIE+dcOPWGweWIQa1PgqRAOUI1w2Y7LzMM9aKdD37jGhfSgoHBFNdPt6BMu0MOn6aHHDndyOD7w0PAaLbgYSwzD4Nx6urHYu0TPSHS884U9CRElESZWIVV/K9XkP9x/WRvGSknJGSyobR+02y7FS/6yEfTfzLs8KjHk61H1oqJjjiIu7A/IU/MuYJsNHIUoDNOGrOItdNCVEstVdA4dJoYx0LmpuazD6xIhay",
+            "body": "{\n  \"Type\" : \"Notification\",\n  \"MessageId\" : \"7c6c7113-fdca-5e89-a4db-298e8461e453\",\n  \"SequenceNumber\" : \"10000000000000000015\",\n  \"TopicArn\" : \"arn:aws:sns:ap-southeast-1:434343955077:candidate-topic.fifo\",\n  \"Message\" : \"{ \\\"event_type\\\": \\\"candidate_application_applied\\\", \\\"timestamp\\\": \\\"Sun, 31 Jan 2021 08:57:41 GMT\\\", \\\"company_id\\\": 5, \\\"user_account_id\\\": 0, \\\"data\\\": { \\\"id\\\": \\\"a3379ac9-f2c4-433a-ae61-4264095369aa\\\", \\\"profile_id\\\": \\\"0f5f7061-4224-421d-b3fd-b6ff7cd7aaaa\\\", \\\"job_id\\\": \\\"bfa6639f-5fee-46cf-b536-1ab0be4f1ebd\\\", \\\"company_id\\\": 5, \\\"status\\\": \\\"completed\\\", \\\"first_name\\\": \\\"Jessy\\\", \\\"last_name\\\": \\\"Test\\\", \\\"is_questionnaires_required\\\": false, \\\"total_questionnaires_completed\\\": 0, \\\"total_questionnaires\\\": 0, \\\"questionnaires\\\": [] } }\",\n  \"Timestamp\" : \"2021-02-10T06:04:27.182Z\",\n  \"UnsubscribeURL\" : \"https://sns.ap-southeast-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:ap-southeast-1:434343955077:candidate-topic.fifo:6a5dcf21-708a-40d5-b45a-b87a58c7fd85\"\n}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "SentTimestamp": "1612937067932",
+                "SequenceNumber": "18859655963100143616",
+                "MessageGroupId": "1",
+                "SenderId": "AIDA2573QF7UDQNDW3ZZA",
+                "MessageDeduplicationId": "1",
+                "ApproximateFirstReceiveTimestamp": "1612937067932"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "8b39c28e3b1aea51ec00059182d289f1",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:ap-southeast-1:434343955077:talent-acquisition-domain-queue.fifo",
+            "awsRegion": "ap-southeast-1"
+        }
+    ]
+}

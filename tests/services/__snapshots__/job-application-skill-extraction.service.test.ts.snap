@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobApplicationSkillExtractionService extractJobApplicationSkills if have candidate skills input should successfully extract and save by prioritize candidate skills if they match the candidate skills. 1`] = `
+[
+  {
+    "name": "Python",
+    "proficiency": "expert",
+    "source": "candidate",
+  },
+]
+`;
+
+exports[`JobApplicationSkillExtractionService extractJobApplicationSkills if have candidate skills input should successfully extract and save candidate skills, including those not matching the candidate skills. 1`] = `
+[
+  {
+    "name": "Python",
+    "proficiency": "expert",
+    "source": "candidate",
+  },
+  {
+    "name": "NodeJS",
+    "proficiency": null,
+    "source": "openai",
+  },
+]
+`;
+
+exports[`JobApplicationSkillExtractionService extractJobApplicationSkills if no candidate skills input should return empty extraction result , if daxtra text resume has no content 1`] = `[]`;
+
+exports[`JobApplicationSkillExtractionService extractJobApplicationSkills if no candidate skills input should successfully extract and save all unique daxtra & openAI skills 1`] = `
+[
+  {
+    "name": "Organisational Skills",
+    "proficiency": null,
+    "source": "openai",
+  },
+  {
+    "name": "Product Launch",
+    "proficiency": "expert",
+    "source": "daxtra",
+  },
+  {
+    "name": "Employee Engagement",
+    "proficiency": "expert",
+    "source": "daxtra",
+  },
+  {
+    "name": "Competitor Analysis",
+    "proficiency": null,
+    "source": "daxtra",
+  },
+  {
+    "name": "Cost Estimating",
+    "proficiency": null,
+    "source": "daxtra",
+  },
+  {
+    "name": "Delegation Skills",
+    "proficiency": null,
+    "source": "daxtra",
+  },
+  {
+    "name": "Managerial Skills > People Management",
+    "proficiency": null,
+    "source": "daxtra",
+  },
+  {
+    "name": "Operations Management",
+    "proficiency": null,
+    "source": "daxtra",
+  },
+  {
+    "name": "Teamwork",
+    "proficiency": null,
+    "source": "daxtra",
+  },
+]
+`;

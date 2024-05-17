@@ -1,0 +1,554 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FitScoreService getCultureFitJobApplicationScore should return correct output 1`] = `
+{
+  "created_by": 5,
+  "job_application_id": "00000000-0000-0000-0000-000000000001",
+  "score": 6.1308688,
+  "score_dimension": 1,
+  "score_outcome": {
+    "framework_alias": "polaris",
+    "personality_result": [
+      {
+        "domain_alias": "people_centric",
+        "domain_score": 0.5587499,
+        "domain_weightage": 0.125,
+        "traits": [
+          {
+            "trait_alias": "social",
+            "trait_framework": "work_interest",
+            "trait_score": 0.625,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "support",
+            "trait_framework": "work_value",
+            "trait_score": 0.49166666666666664,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "cooperation",
+            "trait_framework": "work_style",
+            "trait_score": 0.5,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "concern_for_others",
+            "trait_framework": "work_style",
+            "trait_score": 0.6666666666666667,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "social_orientation",
+            "trait_framework": "work_style",
+            "trait_score": 0.5104166666666666,
+            "trait_weightage": 0.2,
+          },
+        ],
+      },
+      {
+        "domain_alias": "ownership",
+        "domain_score": 0.5581786,
+        "domain_weightage": 0.125,
+        "traits": [
+          {
+            "trait_alias": "investigative",
+            "trait_framework": "work_interest",
+            "trait_score": 0.71875,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "independence",
+            "trait_framework": "work_value",
+            "trait_score": 0.4488095238095238,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "relationships",
+            "trait_framework": "work_value",
+            "trait_score": 0.49833333333333335,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "leadership",
+            "trait_framework": "work_style",
+            "trait_score": 0.5416666666666666,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "integrity",
+            "trait_framework": "work_style",
+            "trait_score": 0.5833333333333334,
+            "trait_weightage": 0.2,
+          },
+        ],
+      },
+      {
+        "domain_alias": "learning",
+        "domain_score": 0.6639881000000001,
+        "domain_weightage": 0.125,
+        "traits": [
+          {
+            "trait_alias": "working_conditions",
+            "trait_framework": "work_value",
+            "trait_score": 0.49523809523809526,
+            "trait_weightage": 0.25,
+          },
+          {
+            "trait_alias": "achievement_effort",
+            "trait_framework": "work_style",
+            "trait_score": 0.8229166666666666,
+            "trait_weightage": 0.25,
+          },
+          {
+            "trait_alias": "initiative",
+            "trait_framework": "work_style",
+            "trait_score": 0.7232142857142857,
+            "trait_weightage": 0.25,
+          },
+          {
+            "trait_alias": "independence",
+            "trait_framework": "work_style",
+            "trait_score": 0.6145833333333334,
+            "trait_weightage": 0.25,
+          },
+        ],
+      },
+      {
+        "domain_alias": "avant_garde",
+        "domain_score": 0.6029731,
+        "domain_weightage": 0.125,
+        "traits": [
+          {
+            "trait_alias": "realistic",
+            "trait_framework": "work_interest",
+            "trait_score": 0.71875,
+            "trait_weightage": 0.1428571,
+          },
+          {
+            "trait_alias": "reasoning_logical",
+            "trait_framework": "pulsifi_default",
+            "trait_score": 0.77832782,
+            "trait_weightage": 0.1428571,
+          },
+          {
+            "trait_alias": "independence",
+            "trait_framework": "work_value",
+            "trait_score": 0.4488095238095238,
+            "trait_weightage": 0.1428571,
+          },
+          {
+            "trait_alias": "working_conditions",
+            "trait_framework": "work_value",
+            "trait_score": 0.49523809523809526,
+            "trait_weightage": 0.1428571,
+          },
+          {
+            "trait_alias": "adaptability_flexibility",
+            "trait_framework": "work_style",
+            "trait_score": 0.6796875,
+            "trait_weightage": 0.1428571,
+          },
+          {
+            "trait_alias": "innovation",
+            "trait_framework": "work_style",
+            "trait_score": 0.6625,
+            "trait_weightage": 0.1428571,
+          },
+          {
+            "trait_alias": "analytical_thinking",
+            "trait_framework": "work_style",
+            "trait_score": 0.4375,
+            "trait_weightage": 0.1428571,
+          },
+        ],
+      },
+      {
+        "domain_alias": "results_driven",
+        "domain_score": 0.6051785999999999,
+        "domain_weightage": 0.125,
+        "traits": [
+          {
+            "trait_alias": "achievement",
+            "trait_framework": "work_value",
+            "trait_score": 0.6071428571428571,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "recognition",
+            "trait_framework": "work_value",
+            "trait_score": 0.4083333333333334,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "achievement_effort",
+            "trait_framework": "work_style",
+            "trait_score": 0.8229166666666666,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "persistence",
+            "trait_framework": "work_style",
+            "trait_score": 0.5625,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "dependability",
+            "trait_framework": "work_style",
+            "trait_score": 0.625,
+            "trait_weightage": 0.2,
+          },
+        ],
+      },
+      {
+        "domain_alias": "in_sync",
+        "domain_score": 0.5739584,
+        "domain_weightage": 0.125,
+        "traits": [
+          {
+            "trait_alias": "support",
+            "trait_framework": "work_value",
+            "trait_score": 0.49166666666666664,
+            "trait_weightage": 0.25,
+          },
+          {
+            "trait_alias": "concern_for_others",
+            "trait_framework": "work_style",
+            "trait_score": 0.6666666666666667,
+            "trait_weightage": 0.25,
+          },
+          {
+            "trait_alias": "self_control",
+            "trait_framework": "work_style",
+            "trait_score": 0.5125,
+            "trait_weightage": 0.25,
+          },
+          {
+            "trait_alias": "stress_tolerance",
+            "trait_framework": "work_style",
+            "trait_score": 0.625,
+            "trait_weightage": 0.25,
+          },
+        ],
+      },
+      {
+        "domain_alias": "stakeholder_savvy",
+        "domain_score": 0.5563333,
+        "domain_weightage": 0.125,
+        "traits": [
+          {
+            "trait_alias": "enterprising",
+            "trait_framework": "work_interest",
+            "trait_score": 0.71875,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "relationships",
+            "trait_framework": "work_value",
+            "trait_score": 0.49833333333333335,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "leadership",
+            "trait_framework": "work_style",
+            "trait_score": 0.5416666666666666,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "social_orientation",
+            "trait_framework": "work_style",
+            "trait_score": 0.5104166666666666,
+            "trait_weightage": 0.2,
+          },
+          {
+            "trait_alias": "self_control",
+            "trait_framework": "work_style",
+            "trait_score": 0.5125,
+            "trait_weightage": 0.2,
+          },
+        ],
+      },
+      {
+        "domain_alias": "plus",
+        "domain_score": 0.785335,
+        "domain_weightage": 0.125,
+        "traits": [
+          {
+            "trait_alias": "reasoning_verbal",
+            "trait_framework": "pulsifi_default",
+            "trait_score": 0.73232432,
+            "trait_weightage": 0.33333,
+          },
+          {
+            "trait_alias": "reasoning_logical",
+            "trait_framework": "pulsifi_default",
+            "trait_score": 0.77832782,
+            "trait_weightage": 0.33333,
+          },
+          {
+            "trait_alias": "reasoning_numeric",
+            "trait_framework": "pulsifi_default",
+            "trait_score": 0.8453762684,
+            "trait_weightage": 0.33333,
+          },
+        ],
+      },
+    ],
+  },
+  "score_recipe_id": "a806101e-3710-4d79-b854-bf3820c9d585",
+  "score_type": "culture_fit",
+  "updated_by": 5,
+}
+`;
+
+exports[`FitScoreService getRoleFitJobApplicationScore should return correct output 1`] = `
+{
+  "created_by": 5,
+  "job_application_id": "00000000-0000-0000-0000-000000000001",
+  "score": 6.195649,
+  "score_dimension": 1,
+  "score_outcome": {
+    "ingredient_result": [
+      {
+        "display_score_rounding_adjustment": 0.01,
+        "display_weightage_rounding_adjustment": 0,
+        "ingredient_alias": "reasoning_logical",
+        "ingredient_score": 0.7783278199999999,
+        "ingredient_weightage": 0.083333333,
+      },
+      {
+        "display_score_rounding_adjustment": 0,
+        "display_weightage_rounding_adjustment": 0,
+        "ingredient_alias": "interest_riasec",
+        "ingredient_score": 0.57143,
+        "ingredient_weightage": 0.25,
+      },
+      {
+        "display_score_rounding_adjustment": 0,
+        "display_weightage_rounding_adjustment": 0.01,
+        "ingredient_alias": "reasoning_verbal",
+        "ingredient_score": 0.73232432,
+        "ingredient_weightage": 0.083333333,
+      },
+      {
+        "display_score_rounding_adjustment": 0,
+        "display_weightage_rounding_adjustment": 0,
+        "ingredient_alias": "reasoning_numeric",
+        "ingredient_score": 0.8453762684,
+        "ingredient_weightage": 0.083333333,
+      },
+      {
+        "display_score_rounding_adjustment": 0,
+        "display_weightage_rounding_adjustment": 0,
+        "ingredient_alias": "work_style",
+        "ingredient_score": 0.6010443000000001,
+        "ingredient_weightage": 0.25,
+      },
+      {
+        "display_score_rounding_adjustment": 0,
+        "display_weightage_rounding_adjustment": 0,
+        "ingredient_alias": "work_value",
+        "ingredient_score": 0.5204422,
+        "ingredient_weightage": 0.25,
+      },
+    ],
+  },
+  "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+  "score_type": "role_fit",
+  "updated_by": 5,
+}
+`;
+
+exports[`FitScoreService mapCultureFitDomainScore should return correct output 1`] = `
+[
+  {
+    "domain_alias": "achievement_effort",
+    "domain_framework": "work_style",
+    "domain_score": 0.8229166666666666,
+  },
+  {
+    "domain_alias": "persistence",
+    "domain_framework": "work_style",
+    "domain_score": 0.5625,
+  },
+  {
+    "domain_alias": "initiative",
+    "domain_framework": "work_style",
+    "domain_score": 0.7232142857142857,
+  },
+  {
+    "domain_alias": "leadership",
+    "domain_framework": "work_style",
+    "domain_score": 0.5416666666666666,
+  },
+  {
+    "domain_alias": "cooperation",
+    "domain_framework": "work_style",
+    "domain_score": 0.5,
+  },
+  {
+    "domain_alias": "concern_for_others",
+    "domain_framework": "work_style",
+    "domain_score": 0.6666666666666667,
+  },
+  {
+    "domain_alias": "social_orientation",
+    "domain_framework": "work_style",
+    "domain_score": 0.5104166666666666,
+  },
+  {
+    "domain_alias": "self_control",
+    "domain_framework": "work_style",
+    "domain_score": 0.5125,
+  },
+  {
+    "domain_alias": "stress_tolerance",
+    "domain_framework": "work_style",
+    "domain_score": 0.625,
+  },
+  {
+    "domain_alias": "adaptability_flexibility",
+    "domain_framework": "work_style",
+    "domain_score": 0.6796875,
+  },
+  {
+    "domain_alias": "dependability",
+    "domain_framework": "work_style",
+    "domain_score": 0.625,
+  },
+  {
+    "domain_alias": "attention_to_detail",
+    "domain_framework": "work_style",
+    "domain_score": 0.4375,
+  },
+  {
+    "domain_alias": "integrity",
+    "domain_framework": "work_style",
+    "domain_score": 0.5833333333333334,
+  },
+  {
+    "domain_alias": "independence",
+    "domain_framework": "work_style",
+    "domain_score": 0.6145833333333334,
+  },
+  {
+    "domain_alias": "innovation",
+    "domain_framework": "work_style",
+    "domain_score": 0.6625,
+  },
+  {
+    "domain_alias": "analytical_thinking",
+    "domain_framework": "work_style",
+    "domain_score": 0.4375,
+  },
+  {
+    "domain_alias": "achievement",
+    "domain_framework": "work_value",
+    "domain_score": 0.6071428571428571,
+  },
+  {
+    "domain_alias": "working_conditions",
+    "domain_framework": "work_value",
+    "domain_score": 0.49523809523809526,
+  },
+  {
+    "domain_alias": "recognition",
+    "domain_framework": "work_value",
+    "domain_score": 0.4083333333333334,
+  },
+  {
+    "domain_alias": "relationships",
+    "domain_framework": "work_value",
+    "domain_score": 0.49833333333333335,
+  },
+  {
+    "domain_alias": "support",
+    "domain_framework": "work_value",
+    "domain_score": 0.49166666666666664,
+  },
+  {
+    "domain_alias": "independence",
+    "domain_framework": "work_value",
+    "domain_score": 0.4488095238095238,
+  },
+  {
+    "domain_alias": "realistic",
+    "domain_framework": "work_interest",
+    "domain_score": 0.71875,
+  },
+  {
+    "domain_alias": "investigative",
+    "domain_framework": "work_interest",
+    "domain_score": 0.71875,
+  },
+  {
+    "domain_alias": "artistic",
+    "domain_framework": "work_interest",
+    "domain_score": 0.46875,
+  },
+  {
+    "domain_alias": "social",
+    "domain_framework": "work_interest",
+    "domain_score": 0.625,
+  },
+  {
+    "domain_alias": "enterprising",
+    "domain_framework": "work_interest",
+    "domain_score": 0.71875,
+  },
+  {
+    "domain_alias": "conventional",
+    "domain_framework": "work_interest",
+    "domain_score": 0.53125,
+  },
+  {
+    "domain_alias": "reasoning_verbal",
+    "domain_score": 0.73232432,
+  },
+  {
+    "domain_alias": "reasoning_logical",
+    "domain_score": 0.77832782,
+  },
+  {
+    "domain_alias": "reasoning_numeric",
+    "domain_score": 0.8453762684,
+  },
+]
+`;
+
+exports[`FitScoreService mapRoleFitDomainScores should return correct output 1`] = `
+[
+  {
+    "domain_alias": "work_style",
+    "domain_score": 0.6010443000000001,
+  },
+  {
+    "domain_alias": "work_value",
+    "domain_score": 0.5204422,
+  },
+  {
+    "domain_alias": "interest_riasec",
+    "domain_score": 0.57143,
+  },
+  {
+    "domain_alias": "work_experience",
+    "domain_score": 0.8,
+  },
+  {
+    "domain_alias": "reasoning_verbal",
+    "domain_score": 0.73232432,
+  },
+  {
+    "domain_alias": "reasoning_logical",
+    "domain_score": 0.7783278199999999,
+  },
+  {
+    "domain_alias": "reasoning_numeric",
+    "domain_score": 0.8453762684,
+  },
+  {
+    "domain_alias": "hard_skills",
+    "domain_score": 0.8,
+  },
+]
+`;

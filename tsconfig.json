@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": ["ES6"],
+        "rootDir": "./",
+        "baseUrl": "./",
+        "outDir": ".build",
+        "sourceMap": true,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "preserveConstEnums": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "useUnknownInCatchVariables": false,
+        "strict": true,
+        "skipLibCheck": true,
+        "paths": {
+            "@pulsifi/pkg": ["package.json"],
+            "@pulsifi/middlewares": ["src/middlewares"],
+            "@pulsifi/shared": ["src/shared"],
+            "@pulsifi/models": ["src/models"],
+            "@pulsifi/interfaces": ["src/interfaces"],
+            "@pulsifi/configs": ["src/configs"],
+            "@pulsifi/constants": ["src/constants"],
+            "@pulsifi/services": ["src/services"],
+            "@pulsifi/candidate-dtos": ["src/dtos/candidate"],
+            "@pulsifi/dtos": ["src/dtos"],
+            "@pulsifi/mappers": ["src/mappers"],
+            "@pulsifi/tests/*": ["tests/*"]
+        }
+    },
+    "ts-node": {
+        "files": true
+    }
+}

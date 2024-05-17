@@ -1,0 +1,32 @@
+{
+    "StructuredResume": {
+        "RevisionDate": "2023-09-24",
+        "lang": "xx"
+    },
+    "ExperienceSummary": {
+        "ExecutiveBrief": "This candidate has a track record with no real industry experience. So far this candidate has not gained any managerial experience."
+    },
+    "FileStruct": {
+        "attachment": [
+            {
+                "conv": "yes",
+                "lang": "",
+                "doc_type": "cv",
+                "fname": "070526666999498",
+                "content": "/tmp/soap_609854047224996",
+                "ftype": "DOCX"
+            }
+        ],
+        "filename": "/tmp/soap_609854047224996"
+    },
+    "src": "DAXTRA-CVX schema:2.0.29 release:0.31.1.79292 rdate:2022-11-15",
+    "TextResume": "\n\n{{DOCUMENT_DATESTAMP}} 2023-09-24 {{END_DOCUMENT_DATESTAMP}}\n\n",
+    "ParserInfo": {
+        "ConverterRelease": "0.24.2.79291",
+        "ParserConfiguration": "{max_len=30000} {tel_flag=} {send_zip=} {fast_conv=} {DEF_LOCAL=} {sdate=0} {no_email_body=0} {do_clever_zoning=0} {keep_zone_span=0} {keep_span=1} {complex=0} {accept_langs=} {not_accept_langs=} {prefer_lang_cv=} {pers_only=0} {projects_off=0} {tree_search_on=0} {all_skills=0} {turbo=0} {known_layouts_only=0} {split_language=0} {picture=0} {picture_inline=0} {debug=0} {ocr_allowed=1} {max_pages=8} {geo_allowed=0} {geo_service=daxtra} {name_space=0} {charset=} {hrxml_upgrade_edu_hist=0}{hrxml_add_languages_section=1}{spool=} {docID=} {user=pulsifi-sg} ",
+        "ParserRelease": "0.31.1.79292",
+        "ParserReleaseDate": "2022-11-15",
+        "ConverterReleaseDate": "2022-11-15",
+        "ParserSchema": "2.0.29"
+    }
+}

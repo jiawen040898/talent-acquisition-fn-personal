@@ -1,0 +1,23 @@
+{
+    "Records": [
+        {
+            "messageId": "d2b1013b-223f-41a9-93b6-f4d5dab0dbf9",
+            "receiptHandle": "AQEBkG5aDsWlj74vrMp33ALyXo3HiWH9hJO2ASBf1i1/q/EwWB6QA8/dEblXlGAqhmD5euYuH8yjMZXrc3sg/R9miZZNvOwOwX0jsIZewBulMY+rZvK6qvNidjxj6b0+Li4iNp9IlwljB4dB3ohwAOJiAdqLhv9ntl/8iATmiklRbFnl01Hc9O0amKqsJa10cWOyGiioN6uSOQA7iKquEE+4g4X3GPQ/Pzs62gYT7KTUmd6bwKb5YLGIF4NQWTlWUtI3/rx2PYkqyAFbieAqkHr7cG6onfacaiBTfFk842OHtVsKimusQm+MllY9uufbDn+y",
+            "body": "{\n  \"Type\" : \"Notification\",\n  \"MessageId\" : \"90497573-c9a2-5c44-ac86-2dd51a1e8159\",\n  \"SequenceNumber\" : \"10000000000000000031\",\n  \"TopicArn\" : \"arn:aws:sns:ap-southeast-1:434343955077:candidate-topic.fifo\",\n  \"Message\" : \"{\\\"event_type\\\":\\\"candidate_application_applied\\\",\\\"event_id\\\":\\\"44573e62-7886-48ca-80d5-ef1c96380832\\\",\\\"company_id\\\":5,\\\"user_account_id\\\":\\\"6418\\\",\\\"data\\\":{\\\"is_questionnaires_required\\\":false,\\\"total_questionnaires_completed\\\":0,\\\"total_questionnaires\\\":0,\\\"id\\\":\\\"2d1f44ba-e4b1-4cfb-8866-d766cb048d37\\\",\\\"profile_id\\\":\\\"85a77b04-3343-4567-b631-22073f22d38c\\\",\\\"job_id\\\":\\\"060781ab-6b56-4915-883b-fe0538b9cf73\\\",\\\"job_data\\\":null,\\\"company_id\\\":5,\\\"company_data\\\":null,\\\"status\\\":\\\"pending\\\",\\\"email\\\":\\\"mupovomiq@givmail.com\\\",\\\"email_provider\\\":null,\\\"first_name\\\":\\\"Jessy\\\",\\\"last_name\\\":\\\"Test123\\\",\\\"formatted_address\\\":null,\\\"place_result\\\":null,\\\"nationality\\\":null,\\\"phone_no\\\":null,\\\"phone_code\\\":null,\\\"source\\\":null,\\\"resume\\\":null,\\\"resume_file_id\\\":null,\\\"resume_content_file_id\\\":null,\\\"submitted_at\\\":null,\\\"completed_at\\\":null,\\\"created_by\\\":\\\"\\\",\\\"updated_by\\\":null,\\\"updated_at\\\":null,\\\"is_new_application\\\":false},\\\"timestamp\\\":\\\"2021-02-17T08:19:08.828Z\\\"}\",\n  \"Timestamp\" : \"2021-02-17T08:19:08.860Z\",\n  \"UnsubscribeURL\" : \"https://sns.ap-southeast-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:ap-southeast-1:434343955077:candidate-topic.fifo:6a5dcf21-708a-40d5-b45a-b87a58c7fd85\",\n  \"MessageAttributes\" : {\n    \"EventType\" : {\"Type\":\"String\",\"Value\":\"candidate_application_applied\"}\n  }\n}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "SentTimestamp": "1613549949568",
+                "SequenceNumber": "18859812860798960128",
+                "MessageGroupId": "44573e62-7886-48ca-80d5-ef1c96380832",
+                "SenderId": "AIDA2573QF7UDQNDW3ZZA",
+                "MessageDeduplicationId": "e631949d99447bc9a9a61f7966c063a4f618c59dc33a4cdc5b1593407b811d1a",
+                "ApproximateFirstReceiveTimestamp": "1613549949568"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "9591e6005db7b757ac95d5f797eaa23b",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:ap-southeast-1:434343955077:talent-acquisition-domain-queue.fifo",
+            "awsRegion": "ap-southeast-1"
+        }
+    ]
+}

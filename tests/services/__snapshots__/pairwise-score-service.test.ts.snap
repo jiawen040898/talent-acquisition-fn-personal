@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PairwiseScoreService getHardSkillJobApplicationScore should handle the case where recipe have no skills 1`] = `
+{
+  "created_by": 5,
+  "job_application_id": "00000000-0000-0000-0001-000000000001",
+  "score": 10,
+  "score_dimension": 2,
+  "score_outcome": {
+    "pairwise_result": [],
+  },
+  "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+  "score_type": "hard_skill",
+  "updated_by": 5,
+}
+`;
+
+exports[`PairwiseScoreService getHardSkillJobApplicationScore should handle the case where the job application has no skills 1`] = `
+{
+  "created_by": 5,
+  "job_application_id": "00000000-0000-0000-0001-000000000001",
+  "score": 0,
+  "score_dimension": 0,
+  "score_outcome": {
+    "pairwise_result": [],
+  },
+  "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+  "score_type": "hard_skill",
+  "updated_by": 5,
+}
+`;
+
+exports[`PairwiseScoreService getHardSkillJobApplicationScore should return the correct hard skill job application score 1`] = `
+{
+  "created_by": 5,
+  "job_application_id": "00000000-0000-0000-0001-000000000001",
+  "score": 8,
+  "score_dimension": 2,
+  "score_outcome": {
+    "pairwise_result": [
+      {
+        "matches": [
+          {
+            "match": false,
+            "score": 0.7,
+            "skill_name": "Python",
+            "source": "daxtra",
+          },
+          {
+            "match": true,
+            "score": 0.9,
+            "skill_name": "Typescript",
+            "source": "daxtra",
+          },
+        ],
+        "skill_name": "Javascript",
+      },
+    ],
+  },
+  "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+  "score_type": "hard_skill",
+  "updated_by": 5,
+}
+`;
+
+exports[`PairwiseScoreService getWorkExpJobApplicationScore should handle the case where the job application has no career 1`] = `
+{
+  "created_by": 5,
+  "job_application_id": "00000000-0000-0000-0001-000000000002",
+  "score": 0,
+  "score_dimension": 0,
+  "score_outcome": {
+    "pairwise_result": [],
+  },
+  "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+  "score_type": "work_experience",
+  "updated_by": 5,
+}
+`;
+
+exports[`PairwiseScoreService getWorkExpJobApplicationScore should return the correct work experience job application score 1`] = `
+{
+  "created_by": 5,
+  "job_application_id": "00000000-0000-0000-0001-000000000001",
+  "score": 8,
+  "score_dimension": 2,
+  "score_outcome": {
+    "pairwise_result": [
+      {
+        "matches": [
+          {
+            "job_title": "Python",
+            "score": 0.7,
+          },
+          {
+            "job_title": "Typescript",
+            "score": 0.9,
+          },
+        ],
+        "previous_employment": "Javascript",
+      },
+    ],
+  },
+  "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+  "score_type": "work_experience",
+  "updated_by": 5,
+}
+`;
+
+exports[`PairwiseScoreService getWorkExpJobApplicationScore should trim job if the job key provided have space 1`] = `
+{
+  "created_by": 5,
+  "job_application_id": "00000000-0000-0000-0001-000000000001",
+  "score": 8,
+  "score_dimension": 2,
+  "score_outcome": {
+    "pairwise_result": [
+      {
+        "matches": [
+          {
+            "job_title": "Software Architect",
+            "score": 0.7,
+          },
+          {
+            "job_title": "Developer",
+            "score": 0.9,
+          },
+        ],
+        "previous_employment": "Software Engineering",
+      },
+    ],
+  },
+  "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+  "score_type": "work_experience",
+  "updated_by": 5,
+}
+`;
+
+exports[`PairwiseScoreService processPairwiseSkillOutput should handle the case where the job application has no career 1`] = `
+{
+  "pairwiseOutcome": [],
+  "pairwiseScore": 0,
+}
+`;
+
+exports[`PairwiseScoreService processPairwiseSkillOutput should handle the case where the recipe have no skills 1`] = `
+{
+  "pairwiseOutcome": [],
+  "pairwiseScore": 1,
+}
+`;
+
+exports[`PairwiseScoreService processPairwiseSkillOutput should return the correct pairwise skill output format with hard skill 1`] = `
+{
+  "pairwiseOutcome": [
+    {
+      "matches": [
+        {
+          "score": 0.7,
+          "skill_name": "Python",
+        },
+        {
+          "score": 0.9,
+          "skill_name": "Typescript",
+        },
+      ],
+      "skill_name": "Javascript",
+    },
+  ],
+  "pairwiseScore": 0.8,
+}
+`;
+
+exports[`PairwiseScoreService processPairwiseSkillOutput should return the correct pairwise skill output format with work experience 1`] = `
+{
+  "pairwiseOutcome": [
+    {
+      "matches": [
+        {
+          "job_title": "Python",
+          "score": 0.7,
+        },
+        {
+          "job_title": "Typescript",
+          "score": 0.9,
+        },
+      ],
+      "previous_employment": "Javascript",
+    },
+  ],
+  "pairwiseScore": 0.8,
+}
+`;

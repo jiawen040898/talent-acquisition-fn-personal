@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DSLookupService getPairwiseSimilarity should get pairwise similarity for hard skill 1`] = `
+{
+  "pairwise_score": {
+    "Liaising": {
+      "Career": 0.26674896478652954,
+      "Communication": 0.5105934739112854,
+      "Design": 0.3413463830947876,
+    },
+  },
+  "score": 0.521033439371321,
+}
+`;
+
+exports[`DSLookupService getPairwiseSimilarity should get pairwise similarity for work experience 1`] = `
+{
+  "pairwise_result": [
+    {
+      "matches": [
+        {
+          "job_title": "Engineer",
+          "score": 0.33818328380584717,
+        },
+      ],
+      "previous_employment": "BUSINESS MANAGER",
+    },
+  ],
+}
+`;

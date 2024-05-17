@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobDistributionScoreService getLatestMeanVariance should return correct output 1`] = `
+{
+  "alpha": 17.587782413153192,
+  "beta": 5.457045630861126,
+  "mean": 0.7631986829999999,
+  "variance": 0.007516229807767551,
+}
+`;
+
+exports[`JobDistributionScoreService getLatestMeanVariance should still calculate if score is higher than 1 1`] = `
+{
+  "alpha": 12.464704142046196,
+  "beta": 3.698062232966139,
+  "mean": 0.7711986829999999,
+  "variance": 0.010281050879767554,
+}
+`;
+
+exports[`JobDistributionScoreService getLatestMeanVariance should still calculate if score is lower than 0 1`] = `
+{
+  "alpha": 4.801203987402785,
+  "beta": 1.676416787596333,
+  "mean": 0.7411986829999999,
+  "variance": 0.025652971859767545,
+}
+`;
+
+exports[`JobDistributionScoreService updateJobDistributionScore when score type is reasoning logical should update job distribution score 1`] = `
+JobDistributionScore {
+  "alpha": 17.592317293005138,
+  "beta": 5.459715373703165,
+  "mean": 0.7631568784999999,
+  "size": 1873,
+  "variance": 0.007514893223487087,
+}
+`;
+
+exports[`JobDistributionScoreService updateJobDistributionScore when score type is work style should update job distribution score 1`] = `
+JobDistributionScore {
+  "alpha": 16.290701014247517,
+  "beta": 5.180458513190539,
+  "mean": 0.7587247905,
+  "size": 1873,
+  "variance": 0.0081465080854954,
+}
+`;

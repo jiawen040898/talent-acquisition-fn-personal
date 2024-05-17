@@ -1,0 +1,23 @@
+{
+    "Records": [
+        {
+            "messageId": "8e56a935-e20f-4daa-84bc-dfbeb40f779e",
+            "receiptHandle": "AQEBM79JGfxxIASGo/MLpGD4UMxL5Bb7IOkHbsELEngzRX80Y3vNwd9rxHiN9biFh+/QMlBfuLzm+pp3UlcjozeFXWgnf0GPJmSWJ/xNAAjEyKOQ89QVdJ0iZSZAKOseR0Y62inBdplcMOgvexFI0TJJ6j3YiqGhHBm3tZ8+7aNeVvdSgerVh8lgCtE/73tnYKJYtYzeHrSLvo1OdJmCDroUpPhbJutLUtoNRupXF7m8SbNUYUpop1KvChpIqGDFXoQrC0u3jHAyq5IxBxtioX1wEv6LhyGxFQQQKObmB6+wUrkEaAChry3I1xQkWIrzXGjJ",
+            "body": "{\n  \"Type\" : \"Notification\",\n  \"MessageId\" : \"bc7da43d-298f-581d-9005-fcf6c68bb6e5\",\n  \"SequenceNumber\" : \"10000000000000000558\",\n  \"TopicArn\" : \"arn:aws:sns:ap-southeast-1:434343955077:person-score-topic.fifo\",\n  \"Message\" : \"{\\n  \\\"event_type\\\": \\\"cognitive_scores_calculated\\\",\\n  \\\"company_id\\\": 1,\\n  \\\"user_account_id\\\": 33,\\n  \\\"event_id\\\": \\\"8ec94c9b-ce49-44a1-be16-1bab0c093ee6\\\",\\n  \\\"data\\\": {\\n    \\\"person_id\\\": \\\"1eac6f1e-33ea-43cb-b287-eea7bc480270\\\",\\n    \\\"person_type\\\": \\\"candidate\\\",\\n    \\\"job_score_recipe_id\\\": \\\"0312047c-9542-4f3b-8d34-5d163fc208c6\\\",\\n    \\\"process_id\\\": 1,\\n    \\\"process_type\\\": \\\"program\\\",\\n    \\\"payload\\\": [\\n      {\\n        \\\"domain_alias\\\": \\\"verbal\\\",\\n        \\\"domain_score\\\": 0.6190476190476191,\\n        \\\"domain_percentile\\\": 69,\\n        \\\"ingredient_weightage\\\": 0.19449394155381328\\n      },\\n      {\\n        \\\"domain_alias\\\": \\\"logical\\\",\\n        \\\"domain_score\\\": 0.125,\\n        \\\"domain_percentile\\\": 0,\\n        \\\"ingredient_weightage\\\": 0.1854953670705631\\n      },\\n      {\\n        \\\"domain_alias\\\": \\\"numeric\\\",\\n        \\\"domain_score\\\": 0.3684210526315789,\\n        \\\"domain_percentile\\\": 34,\\n        \\\"ingredient_weightage\\\": 0.1571632216678546\\n      },\\n      {\\n        \\\"domain_alias\\\": \\\"reasoning_average\\\",\\n        \\\"domain_score\\\": 0.37082289055973267,\\n        \\\"domain_percentile\\\": 10,\\n        \\\"ingredient_weightage\\\": null\\n      }\\n    ]\\n  },\\n  \\\"timestamp\\\": \\\"2021-03-16 13:57:52.430447\\\"\\n}\\n\",\n  \"Timestamp\" : \"2021-03-17T11:49:24.580Z\",\n  \"UnsubscribeURL\" : \"https://sns.ap-southeast-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:ap-southeast-1:434343955077:person-score-topic.fifo:f1db34ed-68bc-4787-81a0-1f40ec971392\"\n}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "SentTimestamp": "1615981764737",
+                "SequenceNumber": "18860435405482223872",
+                "MessageGroupId": "8ec94c9b-ce49-44a1-be16-1bab0c093ee6",
+                "SenderId": "AIDA2573QF7UDQNDW3ZZA",
+                "MessageDeduplicationId": "8ec94c9b-ce49-44a1-be16-1bab0c093ee6",
+                "ApproximateFirstReceiveTimestamp": "1615981770751"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "9c623e111b272bafc237009d97b46b2e",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:ap-southeast-1:434343955077:talent-acquisition-domain-queue.fifo",
+            "awsRegion": "ap-southeast-1"
+        }
+    ]
+}

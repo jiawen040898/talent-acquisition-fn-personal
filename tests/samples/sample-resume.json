@@ -1,0 +1,388 @@
+{
+    "StructuredResume": {
+        "ContactMethod": {
+            "InternetEmailAddress_main": "mary.c@emailaddress.co.uk",
+            "PostalAddress_main": {
+                "PostalCode": "CV6 7RF",
+                "AddressLine": "34 Anywhere Road",
+                "Municipality": "Coventry",
+                "CountryCode": "UK"
+            },
+            "Telephone_home": "+44 2476 888 5544",
+            "Telephone_mobile": "+44 887 222 9999"
+        },
+        "ExecutiveSummary": "An experienced business manager with a consistent track record of successfully employing best business practices that improve efficiency, reduce operating costs whilst increasing productivity, all to tight time scales and within budget. Having a professional attitude and an ability to be flexible and handle change in a positive manner. \n    Possessing excellent communication, leadership and organizational skills, Mary is presently",
+        "PersonName": {
+            "FormattedName": "Mary Cunningham",
+            "FamilyName": "Cunningham",
+            "GivenName": "Mary",
+            "sex": "Female"
+        },
+        "RevisionDate": "2004-01-01",
+        "lang": "en",
+        "Nationality": ["UK"],
+        "EmploymentHistory": [
+            {
+                "employerOrgType": "soleEmployer",
+                "EndDate": "Present",
+                "MonthsOfWork": 154,
+                "LocationSummary": {
+                    "Municipality": "Coventry",
+                    "CountryCode": "UK"
+                },
+                "EmployerOrgName": "Fenn Property Management",
+                "Title": ["BUSINESS MANAGER"],
+                "OrgName": "Fenn Property Management",
+                "PositionType": "PERMANENT",
+                "JobArea": "marketing",
+                "JobGrade": "joblevel-management-mid",
+                "StartDate": "2008-06",
+                "Description": "Organizing and planning essential central services such as reception, security, maintenance, mail, as well as day to day running of the venue. Responsible for making sure that contracts, insurance requirements and safety standards are correctly complied with.\n\n    Duties:\n    In charge of 10 members of staff.\n    Develop and utilise customer database for phone calls, product launches, events. \n    Manage cash loss prevention procedures and established security policies. \n    Keeping senior management informed of changes in my areas of responsibility. \n    Analyzing sales figures and forecasting future sales volumes. \n    Involved in the recruitment and interviewing of new staff.\n    Managing and motivating staff to increase sales and ensure business efficiency. \n    Producing reports on performance, then measuring these against set indicators. \n    Reviewing current organizational effectiveness and making recommendations for improvements."
+            }
+        ],
+        "Competency": [
+            {
+                "skillLevel": 91,
+                "skillName": "Manage cash loss prevention procedures",
+                "description": "Skill",
+                "auth": false,
+                "skillUsed": { "value": 154, "type": "Months" },
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "accountancy"
+                },
+                "lastUsed": "2021",
+                "skillProficiency": "EXCELLENT",
+                "skillAliasArray": ["Manage cash loss prevention procedures"]
+            },
+            {
+                "skillLevel": 91,
+                "skillName": "Product Launch",
+                "description": "Skill",
+                "auth": true,
+                "skillUsed": { "value": 154, "type": "Months" },
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "marketing > promotions"
+                },
+                "lastUsed": "2021",
+                "skillProficiency": "EXCELLENT",
+                "skillAliasArray": ["Product Launch", "product launches"]
+            },
+            {
+                "skillLevel": 90,
+                "skillName": "Employee Engagement",
+                "description": "Skill",
+                "auth": true,
+                "skillUsed": { "value": 154, "type": "Months" },
+                "lastUsed": "2021",
+                "skillProficiency": "EXCELLENT",
+                "skillAliasArray": ["Employee Engagement", "motivating staff"]
+            },
+            {
+                "auth": true,
+                "skillLevel": 12,
+                "skillName": "Competitor Analysis",
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "marketing > prof-skills"
+                },
+                "description": "Skill",
+                "skillAliasArray": ["Competitor Analysis"]
+            },
+            {
+                "auth": true,
+                "skillLevel": 12,
+                "skillName": "Cost Estimating",
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "accountancy"
+                },
+                "description": "Skill",
+                "skillAliasArray": ["Cost Estimating", "cost estimates"]
+            },
+            {
+                "auth": true,
+                "skillLevel": 12,
+                "skillName": "Delegation Skills",
+                "description": "Skill",
+                "skillAliasArray": ["Delegation Skills", "delegating"]
+            },
+            {
+                "auth": false,
+                "skillLevel": 12,
+                "skillName": "Excellent communication skills",
+                "description": "Skill",
+                "skillAliasArray": ["Excellent communication skills"]
+            },
+            {
+                "auth": true,
+                "skillLevel": 12,
+                "skillName": "Managerial Skills > People Management",
+                "description": "Skill",
+                "skillAliasArray": [
+                    "Managerial Skills > People Management",
+                    "People management"
+                ]
+            },
+            {
+                "auth": true,
+                "skillLevel": 12,
+                "skillName": "Operations Management",
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "banking-finance"
+                },
+                "description": "Skill",
+                "skillAliasArray": [
+                    "Operations Management",
+                    "Operational management"
+                ]
+            },
+            {
+                "auth": true,
+                "skillLevel": 12,
+                "skillName": "Organisational Skills",
+                "description": "Skill",
+                "skillAliasArray": [
+                    "Organisational Skills",
+                    "organizational skills"
+                ]
+            },
+            {
+                "auth": true,
+                "skillLevel": 12,
+                "skillName": "Teamwork",
+                "description": "Skill",
+                "skillAliasArray": ["Teamwork", "Team player"]
+            },
+            {
+                "auth": false,
+                "skillLevel": 12,
+                "skillName": "prepare budgets",
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "accountancy"
+                },
+                "description": "Skill",
+                "skillAliasArray": ["prepare budgets"]
+            },
+            {
+                "auth": false,
+                "skillLevel": 12,
+                "skillName": "setting targets",
+                "description": "Skill",
+                "skillAliasArray": ["setting targets"]
+            },
+            {
+                "skillLevel": 100,
+                "skillName": "Business Manager",
+                "description": "Held Position",
+                "auth": false,
+                "skillUsed": { "value": 154, "type": "Months" },
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "marketing"
+                },
+                "lastUsed": "2021",
+                "skillProficiency": "EXCELLENT",
+                "skillAliasArray": ["Business Manager", "a Business Manager"]
+            },
+            {
+                "auth": false,
+                "skillLevel": 12,
+                "skillName": "Business administration",
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "marketing"
+                },
+                "description": "Held Position",
+                "skillAliasArray": ["Business administration"]
+            },
+            {
+                "auth": true,
+                "skillLevel": 92,
+                "skillName": "Masters Degree > Master of Business Administration",
+                "TaxonomyId": { "idOwner": "DAXTRA", "description": "masters" },
+                "description": "Degree/Qualification",
+                "skillAliasArray": [
+                    "Masters Degree > Master of Business Administration",
+                    "MBA"
+                ]
+            },
+            {
+                "auth": true,
+                "skillLevel": 91,
+                "skillName": "Bachelors Degree > Bachelor of Arts > Bachelor of Arts Business Management",
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "bachelors"
+                },
+                "description": "Degree/Qualification",
+                "skillAliasArray": [
+                    "Business Management",
+                    "Bachelors Degree > Bachelor of Arts > Bachelor of Arts Business Management",
+                    "BA (Hons) Business Management"
+                ],
+                "Grade": "Honours"
+            },
+            {
+                "auth": true,
+                "skillLevel": 83,
+                "skillName": "A Levels/Grades > A Levels > A Levels English",
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "high school or equivalent"
+                },
+                "description": "Degree/Qualification",
+                "skillAliasArray": [
+                    "English",
+                    "A Levels/Grades > A Levels > A Levels English",
+                    "A levels: Maths (A) English (B) Technology (B) Science (C)"
+                ],
+                "Grade": "GOOD"
+            },
+            {
+                "auth": true,
+                "skillLevel": 83,
+                "skillName": "A Levels/Grades > A Levels > A Levels Maths",
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "high school or equivalent"
+                },
+                "description": "Degree/Qualification",
+                "skillAliasArray": [
+                    "Maths",
+                    "A Levels/Grades > A Levels > A Levels Maths",
+                    "A levels: Maths (A) English (B) Technology (B) Science (C)"
+                ],
+                "Grade": "EXCELLENT"
+            },
+            {
+                "auth": true,
+                "skillLevel": 83,
+                "skillName": "A Levels/Grades > A Levels > A Levels Science",
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "high school or equivalent"
+                },
+                "description": "Degree/Qualification",
+                "skillAliasArray": [
+                    "Science",
+                    "A Levels/Grades > A Levels > A Levels Science",
+                    "A levels: Maths (A) English (B) Technology (B) Science (C)"
+                ],
+                "Grade": "INTERMEDIATE"
+            },
+            {
+                "auth": true,
+                "skillLevel": 83,
+                "skillName": "A Levels/Grades > A Levels > A Levels Technology",
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "high school or equivalent"
+                },
+                "description": "Degree/Qualification",
+                "skillAliasArray": [
+                    "Technology",
+                    "A Levels/Grades > A Levels > A Levels Technology",
+                    "A levels: Maths (A) English (B) Technology (B) Science (C)"
+                ],
+                "Grade": "GOOD"
+            },
+            {
+                "auth": true,
+                "skillLevel": 82,
+                "skillName": "CIM Qualification",
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "certification"
+                },
+                "description": "Degree/Qualification > Professional",
+                "skillAliasArray": ["CIM Qualification", "CIM"]
+            },
+            {
+                "auth": true,
+                "skillLevel": 82,
+                "skillName": "Driving Licence",
+                "TaxonomyId": {
+                    "idOwner": "DAXTRA",
+                    "description": "certification"
+                },
+                "description": "Degree/Qualification > Professional",
+                "skillAliasArray": ["Driving Licence", "Driving license: Yes"]
+            },
+            {
+                "auth": true,
+                "skillLevel": 100,
+                "skillName": "industry~marketing",
+                "skillCount": 1,
+                "description": "Industry"
+            }
+        ],
+        "PreferredPosition": "a Business Manager",
+        "DOB": "1985-09-12",
+        "EducationHistory": [
+            {
+                "EndDate": "2008",
+                "schoolType": "university",
+                "Major": "Business Management",
+                "MeasureValue": "honours",
+                "Degree": {
+                    "degreeType": "bachelors",
+                    "DegreeName": "Bachelor of Arts",
+                    "DegreeDate": "2008"
+                },
+                "StartDate": "2005",
+                "SchoolName": "Nuneaton University"
+            },
+            {
+                "EndDate": "2005",
+                "schoolType": "college",
+                "Major": "Maths, English, Technology, Science",
+                "MeasureValue": "A",
+                "Degree": {
+                    "degreeType": "high school or equivalent",
+                    "DegreeName": "A Levels",
+                    "DegreeDate": "2005"
+                },
+                "StartDate": "2003",
+                "SchoolName": "Coventry Central College"
+            }
+        ]
+    },
+    "ExperienceSummary": {
+        "HighestEducationalLevel": "masters",
+        "TotalYearsOfManagementWorkExperience": 12.8,
+        "TotalYearsOfMidLevelManagementWorkExperience": 12.8,
+        "TotalMonthsOfWorkExperience": 154,
+        "TotalMonthsOfMidLevelManagementWorkExperience": 154,
+        "ExecutiveBrief": "Mary Cunningham is a resident of Coventry, UK. She has been working in the Marketing occupational sector for more than 13 years. Currently she is employed as a Business Manager at Fenn Property Management. Mary has an extensive management experience (13 years) with exposure to executive/middle management positions.",
+        "TotalMonthsOfManagementWorkExperience": 154,
+        "TotalYearsOfWorkExperience": 13,
+        "ManagementRecord": "Currently since 2008-06 this candidate had experience at an executive/middle management level working as a BUSINESS MANAGER at Fenn Property Management.\n"
+    },
+    "FileStruct": {
+        "attachment": [
+            {
+                "conv": "yes",
+                "lang": "EN",
+                "doc_type": "cv",
+                "fname": "0533875764717177",
+                "content": "/tmp/soap_70889758718307",
+                "ftype": "pdf"
+            }
+        ],
+        "filename": "/tmp/soap_70889758718307"
+    },
+    "src": "DAXTRA-CVX schema:2.0.38 release:0.29.0.69788 rdate:2020-10-14",
+    "TextResume": "\n\n{{DOCUMENT_DATESTAMP}} 2004-01-01 01:24:59 {{END_DOCUMENT_DATESTAMP}}\n\n\n\n                                           Mary Cunningham\n                                           Business Manager\n\nAREAS OF EXPERTISE\n\nOperational management\n\nMarketing & PR\n\nHealth & Safety management\n\nCompetitor analysis\n\nPeople management\n\nBusiness administration\n\nCustomer service\n\nPROFESSIONAL\n\nCIM\n\nMBA\n\nPERSONAL SKILLS\n\nTeam player\n\nProfessional appearance\n\nGoals orientated\n\nPERSONAL DETAILS\n\nMary Cunningham\n34 Anywhere Road\nCoventry\nCV6 7RF\n\nT: 02476 888 5544\nM: 0887 222 9999\nE: mary.c@emailaddress.co.uk\n\nDOB: 12/09/1985\nDriving license:  Yes\nNationality: British\n\n\n\n                                           PERSONAL SUMMARY\n\n                                           An experienced business manager with a consistent track record of successfully employing best business practices that improve efficiency, reduce operating costs whilst increasing productivity, all to tight time scales and within budget. Having a professional attitude and an ability to be flexible and handle change in a positive manner. \n                                           Possessing excellent communication, leadership and organizational skills, Mary is presently looking for a Business Manager position with a forward moving company.\n\n                                           WORK EXPERIENCE\n\n                                           Fenn Property Management  - Coventry\n                                           BUSINESS MANAGER                    June 2008 - Present\n\n                                           Organizing and planning essential central services such as reception, security, maintenance, mail, as well as day to day running of the venue. Responsible for making sure that contracts, insurance requirements and safety standards are correctly complied with.\n\n                                           Duties:\n                                              In charge of 10 members of staff.\n                                              Develop and utilise customer database for phone calls, product launches, events. \n                                              Manage cash loss prevention procedures and established security policies. \n                                              Keeping senior management informed of changes in my areas of responsibility. \n                                              Analyzing sales figures and forecasting future sales volumes. \n                                              Involved in the recruitment and interviewing of new staff.\n                                              Managing and motivating staff to increase sales and ensure business efficiency. \n                                              Producing reports on performance, then measuring these against set indicators. \n                                              Reviewing current organizational effectiveness and making recommendations for improvements.\n\n                                           KEY SKILLS AND COMPETENCIES\n\n                                              Managing time, establish priorities and delegating effectively. \n                                              Able to prepare budgets and cost estimates. \n                                              In depth experience & understanding of the retail channel. \n                                              Liaising with local authorities and regulatory bodies on business related issues. \n                                              Experience of setting targets and monitoring performance. \n                                              Excellent communication skills and ability to present across all media.\n                                              Can identify key opportunities & efficiencies for greater profitability. \n                                              Providing the necessary coaching, support & guidance to assist new staff.\n                                              Ability to function in a fast-paced environment.\n\n                                           ACADEMIC QUALIFICATIONS\n\n                                           BA (Hons)          Business Management\n                                           Nuneaton University  2005 - 2008\n\n                                           A levels:          Maths (A) English (B) Technology (B) Science (C)\n                                           Coventry Central College  2003 - 2005\n\n                                           REFERENCES - Available on request.\n\nCopyright information - Please read\n© This CV template - http://www.dayjob.com/content/cv-template-236.htm   is the copyright of Dayjob Ltd August 2010. Jobseekers may download and use this CV example for their own personal use to help them create their own CVs. You are most welcome to link to this page or any other page on our site\nwww.dayjob.com.  However these CVs must not be distributed or made available on other websites without our prior\npermission. For any questions relating to the use of this CV template please email: info@dayjob.com. -  \n\n",
+    "ParserInfo": {
+        "ConverterRelease": "0.22.0.69788",
+        "ParserConfiguration": "{max_len=30000} {tel_flag=} {send_zip=} {fast_conv=} {DEF_LOCAL=} {sdate=0} {no_email_body=0} {do_clever_zoning=0} {keep_zone_span=0} {keep_span=1} {complex=0} {accept_langs=} {not_accept_langs=} {prefer_lang_cv=} {pers_only=0} {projects_off=0} {tree_search_on=0} {all_skills=0} {turbo=0} {known_layouts_only=0} {split_language=0} {picture=0} {picture_inline=0} {debug=0} {ocr_allowed=1} {max_pages=8} {name_space=0} {charset=} {hrxml_upgrade_edu_hist=0}{hrxml_add_languages_section=1}{spool=} {docID=} {user=pulsifi} ",
+        "ParserRelease": "0.29.0.69788",
+        "ParserReleaseDate": "2020-10-14",
+        "ConverterReleaseDate": "2020-10-14",
+        "ParserSchema": "2.0.38"
+    }
+}

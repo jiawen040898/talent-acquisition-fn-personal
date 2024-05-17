@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CognitiveScoreService getCognitiveScores should return correct output 1`] = `
+[
+  {
+    "created_by": 5,
+    "job_application_id": "00000000-0000-0000-0001-000000000001",
+    "score": 73.2324325,
+    "score_dimension": 2,
+    "score_outcome": {
+      "cognitive_result": {
+        "domain_alias": "verbal",
+        "domain_percentile": null,
+        "domain_score": 0.732324325294115,
+        "ingredient_weightage": null,
+      },
+    },
+    "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+    "score_type": "reasoning_verbal",
+    "updated_by": 5,
+  },
+  {
+    "created_by": 5,
+    "job_application_id": "00000000-0000-0000-0001-000000000001",
+    "score": 77.8327824,
+    "score_dimension": 2,
+    "score_outcome": {
+      "cognitive_result": {
+        "domain_alias": "logical",
+        "domain_percentile": null,
+        "domain_score": 0.7783278238,
+        "ingredient_weightage": null,
+      },
+    },
+    "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+    "score_type": "reasoning_logical",
+    "updated_by": 5,
+  },
+  {
+    "created_by": 5,
+    "job_application_id": "00000000-0000-0000-0001-000000000001",
+    "score": 33.7397,
+    "score_dimension": 1,
+    "score_outcome": {
+      "cognitive_result": {
+        "domain_alias": "numeric",
+        "domain_percentile": null,
+        "domain_score": 0.337397,
+        "ingredient_weightage": null,
+      },
+    },
+    "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+    "score_type": "reasoning_numeric",
+    "updated_by": 5,
+  },
+  {
+    "created_by": 5,
+    "job_application_id": "00000000-0000-0000-0001-000000000001",
+    "score": 61.6016383,
+    "score_dimension": 1,
+    "score_outcome": {
+      "cognitive_result": {
+        "domain_alias": "reasoning_average",
+        "domain_percentile": null,
+        "domain_score": 0.616016383,
+        "ingredient_weightage": null,
+      },
+    },
+    "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+    "score_type": "reasoning_average",
+    "updated_by": 5,
+  },
+]
+`;
+
+exports[`CognitiveScoreService getCognitiveScores should still be able to calculate average score when not all cognitive are calculated 1`] = `
+[
+  {
+    "created_by": 5,
+    "job_application_id": "00000000-0000-0000-0000-000000000002",
+    "score": 33.7397,
+    "score_dimension": 1,
+    "score_outcome": {
+      "cognitive_result": {
+        "domain_alias": "numeric",
+        "domain_percentile": null,
+        "domain_score": 0.337397,
+        "ingredient_weightage": null,
+      },
+    },
+    "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+    "score_type": "reasoning_numeric",
+    "updated_by": 5,
+  },
+  {
+    "created_by": 5,
+    "job_application_id": "00000000-0000-0000-0000-000000000002",
+    "score": 33.7397,
+    "score_dimension": 1,
+    "score_outcome": {
+      "cognitive_result": {
+        "domain_alias": "reasoning_average",
+        "domain_percentile": null,
+        "domain_score": 0.337397,
+        "ingredient_weightage": null,
+      },
+    },
+    "score_recipe_id": "106e0b1d-02c4-4321-9dac-9768f84f8bc1",
+    "score_type": "reasoning_average",
+    "updated_by": 5,
+  },
+]
+`;
+
+exports[`CognitiveScoreService processCognitiveScore should return correct output 1`] = `
+{
+  "created_by": 5,
+  "job_application_id": "00000000-0000-0000-0001-000000000001",
+  "score": 33.7397,
+  "score_dimension": 1,
+  "score_outcome": {
+    "cognitive_result": {
+      "domain_alias": "numeric",
+      "domain_percentile": null,
+      "domain_score": 0.337397,
+      "ingredient_weightage": null,
+    },
+  },
+  "score_recipe_id": undefined,
+  "score_type": "reasoning_numeric",
+  "updated_by": 5,
+}
+`;
+
+exports[`CognitiveScoreService processReasoningAverage should return correct output 1`] = `
+{
+  "created_by": 5,
+  "job_application_id": "00000000-0000-0000-0001-000000000001",
+  "score": 61.601638,
+  "score_dimension": 1,
+  "score_outcome": {
+    "cognitive_result": {
+      "domain_alias": "reasoning_average",
+      "domain_percentile": null,
+      "domain_score": 0.6160163799999999,
+      "ingredient_weightage": null,
+    },
+  },
+  "score_recipe_id": undefined,
+  "score_type": "reasoning_average",
+  "updated_by": 5,
+}
+`;
+
+exports[`CognitiveScoreService processReasoningAverage should return correct output with complete score combining with db 1`] = `
+{
+  "created_by": 5,
+  "job_application_id": "00000000-0000-0000-0001-000000000003",
+  "score": 78.5342803,
+  "score_dimension": 2,
+  "score_outcome": {
+    "cognitive_result": {
+      "domain_alias": "reasoning_average",
+      "domain_percentile": null,
+      "domain_score": 0.7853428027999999,
+      "ingredient_weightage": null,
+    },
+  },
+  "score_recipe_id": undefined,
+  "score_type": "reasoning_average",
+  "updated_by": 5,
+}
+`;
+
+exports[`CognitiveScoreService processReasoningAverage should return correct output with incomplete average 1`] = `
+{
+  "created_by": 5,
+  "job_application_id": "00000000-0000-0000-0001-000000000001",
+  "score": 33.7397,
+  "score_dimension": 1,
+  "score_outcome": {
+    "cognitive_result": {
+      "domain_alias": "reasoning_average",
+      "domain_percentile": null,
+      "domain_score": 0.337397,
+      "ingredient_weightage": null,
+    },
+  },
+  "score_recipe_id": undefined,
+  "score_type": "reasoning_average",
+  "updated_by": 5,
+}
+`;
