@@ -6,7 +6,7 @@ export const handleProcessDomainEvent: AwsFunctionHandler = {
     name: 'talent-acquisition-fn',
     description: `Process SQS messages from Talent Acquisition Domain Queue (v${version})`,
     handler: 'src/functions/process-domain-event.handler',
-    reservedConcurrency: 40,
+    // reservedConcurrency: 40,
     events: [
         {
             sqs: {

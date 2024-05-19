@@ -6,7 +6,7 @@ export const processJobDistributionScore: AwsFunctionHandler = {
     name: 'talent-acquisition-score-distribution-fn',
     description: `Receive scores and calculate respective distribution then store into db (v${version})`,
     handler: 'src/functions/process-job-distribution-score.handler',
-    reservedConcurrency: 20,
+    // reservedConcurrency: 20,
     events: [
         {
             sqs: {

@@ -6,7 +6,7 @@ export const processFitScore: AwsFunctionHandler = {
     name: 'talent-acquisition-fit-score-fn',
     description: `Receive scores and calculate respective distribution then store into db (v${version})`,
     handler: 'src/functions/process-fit-score-calculation.handler',
-    reservedConcurrency: 20,
+    // reservedConcurrency: 20,
     events: [
         {
             sqs: {

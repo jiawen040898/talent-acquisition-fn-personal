@@ -6,7 +6,7 @@ export const processAssessmentScore: AwsFunctionHandler = {
     name: 'talent-acquisition-assessment-score-fn',
     description: `Receive scores and calculate personality then store into db (v${version})`,
     handler: 'src/functions/process-assessment-score.handler',
-    reservedConcurrency: 20,
+    // reservedConcurrency: 20,
     events: [
         {
             sqs: {

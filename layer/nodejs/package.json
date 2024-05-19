@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "@pulsifi/fn": "3.0.6",
+        "amazon-s3-uri": "0.1.1",
+        "axios": "1.6.7",
+        "pg": "8.11.3",
+        "typeorm": "0.3.17",
+        "unleash-client": "4.1.1"
+    }
+}

@@ -10,7 +10,7 @@ export const processResumeAnalyzed: AwsFunctionHandler = {
     name: 'talent-acquisition-resume-analyzed-fn',
     description: `Process Resume Analyzed (v${version})`,
     handler: 'src/functions/process-resume-analyzed.handler',
-    reservedConcurrency: 20,
+    // reservedConcurrency: 20,
     timeout: 60,
     environment: {
         SKILL_EXTRACT_API_URL:
