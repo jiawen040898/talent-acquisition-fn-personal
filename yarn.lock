@@ -2447,10 +2447,10 @@
     "@pnpm/network.ca-file" "^1.0.1"
     config-chain "^1.1.11"
 
-"@pulsifi/custom-aws-cdk-lib@1.14.0":
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/@pulsifi/custom-aws-cdk-lib/-/custom-aws-cdk-lib-1.14.0.tgz#f52255fbfeba4d4d791deb0773b67e9c9eafe3ca"
-  integrity sha512-ATWwHPa9Xb+g3qiD6bM0uhuN5nAegQig5euO4LhoHG2K51C3JZvF0ThD6YmkkUSUPf0jY3qRHuqKI24kjb4/uQ==
+"@pulsifi/custom-aws-cdk-lib@1.14.1":
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/@pulsifi/custom-aws-cdk-lib/-/custom-aws-cdk-lib-1.14.1.tgz#0afe6eb6c4ca4d23681c69b1f950249e13364ddc"
+  integrity sha512-ayx6eESXXhtoF8QkQPcvb3I/dYMd4TILAkpMEkOkjEW5Bx4Ufzr6NvY1wMIPbtLnkyCudBA2FfcmWzgvrEuv/g==
   dependencies:
     dotenv "^16.4.5"
     lodash "4.17.21"
